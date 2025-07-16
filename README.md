@@ -1,5 +1,5 @@
 🃏 <p align="center">Yu-Gi-Oh! Dashboard</p>
-<p align="center">✨ Portada del Proyecto</p>
+<p align="center"> Portada del Proyecto</p>
 <p align="center"> <img src="https://github.com/user-attachments/assets/7a1e7243-ee8a-4318-86b5-6af9b7779048" alt="Portada Yu-Gi-Oh Dashboard" /> </p>
 <p align="center">📌 Breve explicación</p>
 <p align="justify"> Este proyecto fue desarrollado con Angular usando configuración <strong>standalone</strong>. Es un <strong>Dashboard interactivo de cartas de Yu-Gi-Oh!</strong> que permite visualizar, filtrar, agregar, modificar, eliminar y ver en detalle las cartas extraídas de una API externa (<code>https://db.ygoprodeck.com/api/</code>), todo desde el frontend. El diseño es responsivo y moderno, utilizando estilos limpios y bien organizados. </p
@@ -45,4 +45,7 @@ Justificación:
 ✅ Permite obtener cartas de Yu-Gi-Oh! con imágenes, descripción, estadísticas y más.
 
 ✅ Ideal para una app de tipo catálogo con filtros, acciones y vista detallada.
+<p align="center">agregar como colaborador al segundo integrante. </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/42edd067-977e-455b-9d55-98aa42c0897c"/> </p>
+
 
