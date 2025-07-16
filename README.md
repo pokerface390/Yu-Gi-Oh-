@@ -21,7 +21,7 @@
 
 <p align="justify"> El sistema utiliza mensajes temporales para confirmar las acciones realizadas, mejorando la retroalimentación del usuario. </p>
 <p align="center">🪄 Modal descriptivo</p>
-<p align="center"> <img src="https://github.com/user-attachments/assets/YOUR-IMAGE-URL-MODAL.png" alt="Modal Descripción" /> </p> <p align="justify"> Al hacer clic en "Ver más", se despliega un modal con la imagen ampliada de la carta y su descripción completa. Este modal se puede cerrar fácilmente y permite conocer más detalles sin salir de la aplicación. </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/78812afc-bc89-4e26-bc71-6659a08ddae8" alt="Modal Descripción" /> </p> <p align="justify"> Al hacer clic en "Ver más", se despliega un modal con la imagen ampliada de la carta y su descripción completa. Este modal se puede cerrar fácilmente y permite conocer más detalles sin salir de la aplicación. </p>
 <p align="center">📦 Tecnologías utilizadas</p>
 <p align="center"> <img src="https://skillicons.dev/icons?i=angular,typescript,html,css" /> </p>
 🔺 Angular Standalone Components
