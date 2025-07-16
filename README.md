@@ -1,59 +1,46 @@
-# LoginAppBueno
+🃏 <p align="center">Yu-Gi-Oh! Dashboard</p>
+<p align="center">✨ Portada del Proyecto</p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/7a1e7243-ee8a-4318-86b5-6af9b7779048" alt="Portada Yu-Gi-Oh Dashboard" /> </p>
+<p align="center">📌 Breve explicación</p>
+<p align="justify"> Este proyecto fue desarrollado con Angular usando configuración <strong>standalone</strong>. Es un <strong>Dashboard interactivo de cartas de Yu-Gi-Oh!</strong> que permite visualizar, filtrar, agregar, modificar, eliminar y ver en detalle las cartas extraídas de una API externa (<code>https://db.ygoprodeck.com/api/</code>), todo desde el frontend. El diseño es responsivo y moderno, utilizando estilos limpios y bien organizados. </p>
+<p align="center">🧭 Barra superior y perfil</p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/YOUR-IMAGE-URL-PROFILE.png" alt="Barra de usuario" /> </p> <p align="justify"> En la parte superior del dashboard se encuentra el perfil del usuario con nombre y fotografía. Este componente le da un toque personal a la aplicación y está fijo en la parte superior, lo que mejora la experiencia del usuario. </p>
+<p align="center">🔍 Funcionalidades destacadas</p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/YOUR-IMAGE-URL-TABLE.png" alt="Tabla de Cartas" /> </p> <p align="justify"> La tabla principal es el núcleo de la aplicación. Muestra las cartas obtenidas desde la API de Yu-Gi-Oh! con una vista ordenada que incluye imagen pequeña, nombre y una columna de acciones. A continuación, se describen las funcionalidades implementadas: </p>
+🔎 Filtro en tiempo real por nombre de carta.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
+➕ Botón Agregar: Añade una carta de prueba localmente (no se comunica con la API).
 
-## Development server
+✏️ Modificar: Simula una edición local con mensaje visual.
 
-To start a local development server, run:
+🗑️ Eliminar: Elimina la carta de la tabla con confirmación previa.
 
-```bash
-ng serve
-```
+👁️ Ver más: Abre un modal con imagen grande y descripción detallada.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+<p align="justify"> El sistema utiliza mensajes temporales para confirmar las acciones realizadas, mejorando la retroalimentación del usuario. </p>
+<p align="center">🪄 Modal descriptivo</p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/YOUR-IMAGE-URL-MODAL.png" alt="Modal Descripción" /> </p> <p align="justify"> Al hacer clic en "Ver más", se despliega un modal con la imagen ampliada de la carta y su descripción completa. Este modal se puede cerrar fácilmente y permite conocer más detalles sin salir de la aplicación. </p>
+<p align="center">📦 Tecnologías utilizadas</p>
+<p align="center"> <img src="https://skillicons.dev/icons?i=angular,typescript,html,css" /> </p>
+🔺 Angular Standalone Components
 
-## Code scaffolding
+🧠 TypeScript
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+🎨 CSS personalizado
 
-```bash
-ng generate component component-name
-```
+🌐 Consumo de API externa (YGOPRODeck)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+<p align="center">🎯 Objetivo del proyecto</p>
+<p align="justify"> Desarrollar una aplicación Angular que consuma una API pública, presentando los datos de forma estructurada y funcional. También se buscó reforzar el uso de formularios, ngModel, servicios HTTP, modales, y filtrado en tiempo real. </p>
+🌐 API utilizada y justificación
+API: https://db.ygoprodeck.com/api/v7/cardinfo.php
+Justificación:
 
-```bash
-ng generate --help
-```
+✅ Gratuita y de libre acceso.
 
-## Building
+✅ Bien documentada.
 
-To build the project run:
+✅ Permite obtener cartas de Yu-Gi-Oh! con imágenes, descripción, estadísticas y más.
 
-```bash
-ng build
-```
+✅ Ideal para una app de tipo catálogo con filtros, acciones y vista detallada.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
