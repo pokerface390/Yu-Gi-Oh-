@@ -46,7 +46,7 @@ Justificación:
 
 ✅ Ideal para una app de tipo catálogo con filtros, acciones y vista detallada.
 
-<p align="center">agregar como colaborador al segundo integrante</p>
+<p align="center">Agregar como colaborador al segundo integrante</p>
 <p align="center"> <img src="https://github.com/user-attachments/assets/42edd067-977e-455b-9d55-98aa42c0897c"/> </p>
 
 
